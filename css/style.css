@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #3f3f3f;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+    border-bottom: 2px solid white;
+}
+
+.navbar .logo {
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.content h1 {
+    color: white;
+}
+
+.content label {
+    color: white;
+}
+
+.content input {
+    padding: 5px 10px;
+}
+
+.text-time {
+    margin-bottom: 50px;
+}
+
+.text-time h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text-time ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.text-time ul li {
+    margin: 0 10px;
+    color: white;
+}
+
+.content button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 0.2s ease-in-out;
+}
+
+.content button:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+    background-color: #101010;
+    padding: 20px 0;
+    border-top: 2px solid white;
+}
+
+.footer p {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}

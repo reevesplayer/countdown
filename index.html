@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img src="/img/logo.png" alt="Logo" class="logo">
+            </div>
+        </nav>
+
+        <div class="content">
+            <h1>Enter Date:</h1>
+                <form name="form_main">
+                    <label for="numero">Date: </label> 
+                    <input name='date_end' type="date" onblur="resetCountdown()" />
+                    <button type="button" onclick="startCountdown()">Start</button>
+                    <br>
+                </form>
+            <div class="text-time">
+                <h1>Time Left:</h1>
+                <ul>
+                    <li><span id="years"></span> Years</li>
+                    <li><span id="months"></span> Months</li>
+                    <li><span id="weeks"></span> Weeks</li>
+                    <li><span id="days"></span> Days</li>
+                    <li><span id="hours"></span> Hours</li>
+                    <li><span id="minutes"></span> Minutes</li>
+                    <li><span id="seconds"></span> Seconds</li>
+                </ul>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Made From Scratch by Reeves <3</p>
+            </div>
+        </footer>
+        <script src="/js/main.js" async defer></script>
+    </body>
+</html>
